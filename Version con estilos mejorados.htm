@@ -1,0 +1,136 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>¡Bienvenido a mi Espacio Digital!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        h1, h2 {
+            color: rgb(71, 14, 111);
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+        }
+        a {
+            color: #000dff;
+            text-decoration: none;
+        }
+        img {
+            max-width: 10%;
+            height: auto;
+            border-radius: 100000px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenidos a mi Espacio Digital</h1>
+
+    <br>
+
+    <div><label for="relacion">¿Cuál es tu relación conmigo?</label>
+        <!-- Menú desplegable para la relación -->
+        <select id="relacion">
+            <option value="familia">Familia</option>
+            <option value="amigos">Amigos</option>
+            <option value="trabajo">Trabajo</option>
+            <option value="otros">Otros</option>
+        </select>
+    
+        <br>
+    
+    </div>
+
+    <br>
+
+    <div>
+        <label for="nombre">Introduce tu nombre:</label>
+        <!-- Campo de entrada para el nombre -->
+        <input type="text" id="nombre" placeholder="Nombre" onkeydown="checkEnter(event)">
+        <!-- Botón para enviar el formulario -->
+        <button onclick="mostrarSaludo()">Enviar</button>
+    </div>
+    <br>
+    <!-- Contenedor para mostrar el saludo -->
+    <div id="saludo"></div>
+    
+
+    <h2>Un Espacio en el que voy a listar mis proyectos, fijarme nuevos objetivos y disfrutar de la creatividad en el proceso de aprendizaje</h2>
+    <p>
+        Estoy emocionado por aprender a programar sitios web y explorar las infinitas posibilidades del mundo digital. En este espacio, te invito a unirte a mi viaje hacia el aprendizaje y la creatividad. Explora los proyectos que estoy construyendo y comparte esta experiencia conmigo. <br>
+        Cuando practicas haciendo proyectos, tus habilidades se elevan al 5 mínimo, habilidades <sup>5</sup>
+        <script src="index.js">
+        </script>
+    </p>
+    <br>
+    <center><a href="https://www.linkedin.com/in/javier-de-capua-rocamora-40477719a/" target="_blank">¡Conéctate conmigo en LinkedIn!</a></center><br>
+    <center><img src="https://media.licdn.com/dms/image/C4E03AQETjJFW2z_oQQ/profile-displayphoto-shrink_400_400/0/1640692698435?e=1701302400&v=beta&t=gzyAp7CKlAGFb4ZmPwWfTAR9bQHM4lW-62RRs-GYzTI" alt="Mi Foto de Perfil"></center>
+    <hr>
+    <br>
+    <p>Proyectos que quiero realizar en 2023/2024:</p>
+    <ul>
+        <li>Diseñar una página web compleja y funcional</li> 
+        <li>Construir un autómata y programarlo, posiblemente el Bittle de Petoi</li>
+        <li>Desarrollar un modelo de machine learning</li>
+        <li>Diseñar un videojuego</li>
+    </ul>
+    <br>
+    <p>Tabla de Objetivos:</p>
+    <table>
+        <tr>
+            <th>Objetivo</th>
+            <th>Complejidad</th>
+            <th>¿Cumplido?</th>
+            <th>Satisfacción</th>
+        </tr>
+        <tr>
+            <td>Página Web</td>
+            <td>Media</td>
+            <td>EN CURSO</td>
+            <td>En curso</td>
+        </tr>
+        <tr>
+            <td>Autómata</td>
+            <td>Media</td>
+            <td>NO</td>
+            <td>En curso</td>
+        </tr>
+        <tr>
+            <td>Modelo ML</td>
+            <td>Media</td>
+            <td>NO</td>
+            <td>En curso</td>
+        </tr>
+        <tr>
+            <td>Videojuego</td>
+            <td>Alta</td>
+            <td>NO</td>
+            <td>En curso</td>
+        </tr>
+    </table>
+    <script href="index.js">
+    
+    </script>
+</body>
+</html>
